@@ -14,4 +14,4 @@ app.get("/", (req, res) => {
  *  Defaulted to 5000 for dev env
  */
 const PORT = process.env.PORT || 5000;
-app.listen(5000);
+app.listen(PORT);
