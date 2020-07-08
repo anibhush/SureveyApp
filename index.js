@@ -7,4 +7,11 @@ app.get("/", (req, res) => {
   res.send({ hi: "there" });
 });
 
+/*
+ *  To read dynamic port from heroku.
+ *  Whenever Heroku runs or application it has
+ *  the ability to inject what are called environment variables.
+ *  Defaulted to 5000 for dev env
+ */
+const PORT = process.env.PORT || 5000;
 app.listen(5000);
