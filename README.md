@@ -38,3 +38,5 @@ remote: Verifying deploy... done.
 \$ heroku logs
 
 # SUBSEQUENT DEPLOYS:
+
+\$ git push heroku master
