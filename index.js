@@ -4,7 +4,7 @@ const app = express(); //generates a new express application
 
 //create route handler
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ hi: "Love!!!" });
 });
 
 /*
